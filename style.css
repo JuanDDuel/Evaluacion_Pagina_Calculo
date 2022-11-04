@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.head{
+    background-color: rgb(58, 5, 5);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.cuerpo{
+    background-color: rgba(255, 255, 255, 0.222);
+    color: rgb(233, 232, 232);
+    height:1050px;
+    width: 850px;
+    position: static;
+    top: 0;
+    left: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin:  0 auto;
+}
+.nav-link{
+    color: rgba(255, 255, 255, 0.792);
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu2{
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.nav-menu-link:hover{
+    background-color: rgba(255, 255, 255, 0.408);
+    border-radius: 3px;
+    transition: 0.4s;
+}
+body{
+    background-image: url(img/yakuza-0-goro-majima-kiryu-kazuma.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.colorletterbutton{
+    color: black;
+}
